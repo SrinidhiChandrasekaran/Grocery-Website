@@ -1,0 +1,6 @@
+First page -> Home, User login and Admin Login
+Side bar -> About Us, Modes of delivery available, Extra perks, Our outlets, Contact Us
+User login -> Login page, New Arrivals, Offers and deals, Your frequent items, Cart, Previous orders, Proceed to checkout
+Admin Login -> Login page, Customer Details, Employee details, Stock taking, Dealers details, Order details
+
+New Arrivals: Diary, Essentials, House Cleaning Stuff, Snacks, Confectionaries, Juices and Syrups, Powders and Spices

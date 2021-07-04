@@ -1,0 +1,51 @@
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+        <style>
+            body {
+                background-color: white;
+            }
+            .registration {
+                background-color: whitesmoke;
+                width: 500px;
+                height: 470px;
+                position: absolute;
+                top: 50px;
+                left: 400px;
+                border: grey 3px solid;
+                padding: 15px;
+            }
+            input, button {
+                width: 270px;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="registration" method="POST" autocomplete="off" action="./user.html">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" required placeholder="Enter your name"><br><br>
+            <label for="email">EMail: </label>
+            <input type="email" name="email" id="email" required placeholder="Enter your Email ID"><br><br>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" required placeholder="Enter your password"><br><br>
+            <label for="address-line1">Address (line 1): </label>
+            <input type="text" name="address-line1" id="address-line1" required placeholder="Enter the first line of your address">
+                <br><br>
+            <label for="address-line2">Address (line 2): </label>
+            <input type="text" name="address-line2" id="address-line2" required placeholder="Enter the second line of your address">
+                <br><br>
+            <label for="city">City: </label>
+            <input type="text" name="city" id="city" required placeholder="Enter your city"><br><br>
+            <label for="pincode">Pincode: </label>
+            <input type="number" name="pincode" id="pincode" required placeholder="Enter your pincode"><br><br>
+            <label for="profilePic">Profile picture: </label>
+            <input type="file" name="profilePic" id="profilePic"><br>
+            <button type="submit" class="btn btn-success" onsubmit="alert('Registered succcessfully')">Submit</button>
+        </form>
+    </body>
+</html>

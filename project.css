@@ -1,0 +1,42 @@
+.first-banner {
+    float: right;
+}
+
+.first-banner-icons {
+    font-size: 1.5em;
+    margin-left: 5px;
+}
+
+.first-banner-text {
+    margin-right: 10px;
+    margin-left: 2px;
+}
+
+.second-banner {
+    float: left;
+    position: absolute;
+    top: 0.001%;
+    left: 0%;
+}
+
+.bbicon {
+    width: 20%;
+    height: 15%;
+}
+
+.navbar-center {
+    position:absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.search-bar {
+    position: absolute;
+    width: 225%;
+}
+
+.search-button {
+    position: absolute;
+    left: 203%;
+    top: -8%;
+}

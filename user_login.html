@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+        <!-- <link href="./user_login.css" rel="stylesheet"> -->
+        <style>
+            body {
+                background-color: white;
+            }
+            .login {
+                background-color: whitesmoke;
+                width: 500px;
+                height: 300px;
+                position: absolute;
+                top: 100px;
+                left: 400px;
+                border: grey 3px solid;
+                padding: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="login" method="POST" autocomplete="off" action="./user.html">
+            <label for="username" class="login-label" style="position: absolute; top: 57px; left: 50px;">Username: </label>
+            <input type="email" name="email" id="username" required placeholder="Enter your email address"
+                style="position: absolute; top: 57px; left: 130px; width: 270px;"><br><br>
+            <label for="password" class="login-label" style="position: absolute; top: 97px; left: 50px;">Password: </label>
+            <input type="password" name="password" id="password" required placeholder="Enter your password"
+                style="position: absolute; top: 97px; left: 130px; width: 270px;"><br><br>
+            <button type="submit" class="btn btn-success" onsubmit="alert('Login succcessfully')" 
+                style="position: absolute; top: 137px; left: 170px; width: 100px;">Login</button><br><br>
+            <a href="./user_registration.html" style="position: absolute; top: 187px; left: 150px;">
+                Not a user, register here</a>
+        </form>
+    </body>
+</html>

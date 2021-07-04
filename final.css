@@ -1,0 +1,111 @@
+
+
+.navbar-brand {
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar, .navbar-nav a {
+    background-color: black;
+    color: yellow;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-header a:hover {
+    color: pink;
+}
+
+.navbar-nav a:hover {
+    color: blue;
+    background-color: black;
+    text-decoration: none;
+}
+
+.navbar {
+    border: cyan 5px solid;
+    position: fixed;
+    width: 1280px;
+}
+
+.sidenav {
+    height: 89.5%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+    left: 0;
+    background-color: pink;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 20px;
+    border: crimson 5px solid;
+}
+
+.badge {
+    padding: 5px;
+    background-color: white;
+    color: pink;
+    font-size: 24px;
+    text-align: center;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+  
+.sidenav a:hover {
+    color: grey;
+    text-decoration: none;
+    background-color: white;
+}
+
+.content {
+    background-color: lightblue;
+    position: absolute;
+    left: 200px;
+    top: 60px;
+    width: 1080px;
+    height: 89.5%;
+    border: darkblue 5px solid;
+    overflow-y: scroll;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: darkred;
+    padding: 5px;
+}
+
+.well {
+    background-color: yellow;
+    text-align: center;
+}
+
+.About-Us-Image {
+    /*float: right;*/
+    position: absolute;
+    top: 85px;
+    right: 2px;
+    padding: 5px;
+}
+
+figure {
+    border: 1px chocolate solid;
+    padding: 4px;
+    margin: 5px;
+    height: 45%;
+    width: 30%;
+}
+  
+figcaption {
+    background-color: black;
+    color: yellow;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+}
+
+.navbar {
+    background-color: green;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: lightgreen 3px solid;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-nav a {
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-brand:hover {
+    color: red;
+}
+
+.navbar-nav a:hover {
+    color: blue;
+}
+
+figure {
+    border: 1px chocolate solid;
+    padding: 4px;
+    margin: 5px;
+    height: 235px;
+    width: 250px;
+}
+  
+figcaption {
+    background-color: black;
+    color: yellow;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}

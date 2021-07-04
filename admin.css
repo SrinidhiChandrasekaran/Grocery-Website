@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+}
+
+.navbar {
+    background-color: maroon;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: red 3px solid;
+    position: fixed;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-nav a {
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-brand:hover {
+    color: green;
+}
+
+.navbar-nav a:hover {
+    color: blue;
+}
+
+/*.customer-table>.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: rgb(151,251,209);
+}
+
+.customer-table>.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: rgb(136, 218, 161);
+}*/
